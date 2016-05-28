@@ -1,9 +1,9 @@
-<h3 class="heading">{{category}} Articles</h3>
-<div ng-controller="ArticleCategoryCtrl">
+<h3 class="heading">Articles</h3>
+<div ng-controller="ArticlesCtrl">
     <a class="btn btn-default" href="#/categories">Go Back</a>
     <div class="row">
         <div class="articles">
-            <div ng-repeat="article in cat_articles">
+            <div ng-repeat="article in articles">
                 <div class="col-md-12">
                     <div class="article">
                         <h4>{{article.title}}</h4>
